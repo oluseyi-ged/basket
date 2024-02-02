@@ -1,138 +1,118 @@
 /* eslint-disable react-native/no-inline-styles */
-/* eslint-disable @typescript-eslint/no-unused-vars */
-import {Bike, Bike2, Bike3, Bike4, Bike5, Ride} from '@assets/images';
-import {Button, SizedBox, SvgIcon} from '@components';
-import {HDP} from '@helpers';
-import LottieView from 'lottie-react-native';
-import React, {FC, useEffect, useRef, useState} from 'react';
+
+import {Logo} from '@assets/images';
+import {SvgIcon, TextInput} from '@components';
+import {HDP, RF} from '@helpers';
+import React, {FC} from 'react';
 import {
   Dimensions,
-  FlatList,
   Image,
   SafeAreaView,
+  ScrollView,
   Text,
+  TouchableOpacity,
   View,
 } from 'react-native';
-import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scrollview';
+import {RootState, useAppSelector} from 'store';
 import style from './styles';
 
 export const Home: FC = ({navigation}: any) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const {width, height} = Dimensions.get('window');
-  const ref = useRef<any>(null);
-  const animationRef = useRef<LottieView>(null);
+  const {height} = Dimensions.get('window');
+  const {profile} = useAppSelector((store: RootState) => store);
 
-  useEffect(() => {
-    animationRef.current?.play();
-
-    // Or set a specific startFrame and endFrame with:
-    animationRef.current?.play(30, 120);
-  }, []);
-  const bikes = [
+  const options = [
     {
       id: 1,
-      image: Bike,
+      title: 'Notification',
+      icon: 'bell',
     },
     {
       id: 2,
-      image: Bike2,
+      title: 'Edit Profile',
+      icon: 'edit',
     },
     {
       id: 3,
-      image: Bike3,
+      title: 'Wishlist',
+      icon: 'star',
     },
     {
       id: 4,
-      image: Bike4,
+      title: 'Order history',
+      icon: 'history',
     },
     {
       id: 5,
-      image: Bike5,
+      title: 'Track order',
+      icon: 'marker',
+    },
+    {
+      id: 5,
+      title: 'Payment option',
+      icon: 'pay',
+    },
+    {
+      id: 5,
+      title: 'Settings',
+      icon: 'settings',
+    },
+    {
+      id: 5,
+      title: 'Log out',
+      icon: 'logout',
     },
   ];
 
-  const updateIndex = e => {
-    const contentOffset = e.nativeEvent.contentOffset.x;
-    const newIndex = Math.round(contentOffset / width);
-    setCurrentIndex(newIndex);
-  };
-
   return (
-    <SafeAreaView style={{flex: 1, backgroundColor: '#fff'}}>
-      <KeyboardAwareScrollView
-        keyboardShouldPersistTaps="handled"
-        style={style.container}>
+    <SafeAreaView style={{flex: 1, backgroundColor: '#112D42', height}}>
+      <ScrollView style={style.container}>
         <View style={style.header}>
-          <SvgIcon name="avi" size={40} />
-          <SvgIcon name="bell" size={40} />
+          <Image source={Logo} style={{width: HDP(40), height: HDP(40)}} />
+          <View style={{flex: 1}}>
+            <TextInput
+              placeholder={'Search'}
+              iconName1="search"
+              inputStyle={style.searchBox}
+              containerStyle={style.searchBox}
+            />
+          </View>
+          <SvgIcon name="burger" size={40} />
         </View>
-        <SizedBox height={10} />
-        <Text style={style.maintext}>Hello good Morning!</Text>
-        <SizedBox height={40} />
-        <View style={{paddingLeft: HDP(24)}}>
-          <FlatList
-            ref={ref}
-            data={bikes}
-            keyExtractor={item => item.id.toString()} // Specify a unique key for each item
-            showsHorizontalScrollIndicator={false}
-            horizontal
-            pagingEnabled
-            onMomentumScrollEnd={updateIndex}
-            renderItem={({item}) => (
-              <View
-                style={[
-                  style.swipeCont,
-                  currentIndex !== item?.id - 1 && {opacity: 0.5},
-                ]}>
-                <Image source={item?.image} style={style.heroImg} />
-              </View>
-            )}
-          />
-          <SizedBox height={16} />
-          {/* Render indicator */}
-          <View style={style.ctaGrid}>
-            <View
-              style={{
-                flexDirection: 'row',
-                justifyContent: 'center',
-                gap: HDP(3),
-              }}>
-              {bikes.map((_, index) => (
-                <View
-                  style={[
-                    currentIndex === index ? style.indicate : style.unindicate,
-                  ]}
-                />
-              ))}
-            </View>
+        <View style={style.heroSection}>
+          <Image source={{uri: profile?.image}} style={style.aviRound} />
+          <View>
+            <Text style={style.maintext}>
+              {profile?.firstName} {profile?.lastName}
+            </Text>
+            <Text style={[style.maintext, {fontSize: RF(12)}]}>
+              {profile?.email}
+            </Text>
           </View>
         </View>
-        <SizedBox height={25} />
-        <View style={style.orderCta}>
-          <Text style={style.orderText}>Gotten your E-Bike yet?</Text>
-          <Button
-            onPress={() => navigation.navigate('Orders')}
-            title="Your Orders"
-            iconName="arrow-right"
-            containerStyle={{flex: 1}}
-          />
+        <View style={{flex: 1, position: 'relative'}}>
+          <View style={style.optBox}>
+            {options?.map((opt, i) => (
+              <TouchableOpacity
+                disabled={i !== 7}
+                onPress={() => {
+                  navigation.reset({
+                    index: 0,
+                    routes: [{name: 'Auth'}],
+                  });
+                }}
+                key={i}
+                style={style.optItem}>
+                <View style={{flex: 0.2}}>
+                  <SvgIcon name={opt?.icon} size={24} />
+                </View>
+                <View style={{flex: 0.4}}>
+                  <Text style={style.optText}>{opt?.title}</Text>
+                </View>
+              </TouchableOpacity>
+            ))}
+          </View>
         </View>
-        <View style={style.lottieGrid}>
-          <LottieView
-            ref={animationRef}
-            source={Ride}
-            autoPlay
-            loop
-            style={{
-              height: HDP(161),
-              width: HDP(150),
-            }}
-          />
-          <Text style={style.lottieText}>
-            You too can join our Elite squad of E-bikers
-          </Text>
-        </View>
-      </KeyboardAwareScrollView>
+      </ScrollView>
     </SafeAreaView>
   );
 };

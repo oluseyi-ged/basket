@@ -16,7 +16,7 @@ export const NavMenu = ({state, descriptors, navigation}: any) => {
       case 'settings':
         return (
           <View>
-            <SvgIcon name="settings" size={25} />
+            <SvgIcon name="cart" size={25} />
           </View>
         );
       case 'share':
@@ -34,7 +34,7 @@ export const NavMenu = ({state, descriptors, navigation}: any) => {
       default:
         return (
           <View>
-            <SvgIcon name={status ? 'home' : 'home-inactive'} size={25} />
+            <SvgIcon name="home" size={25} />
           </View>
         );
     }

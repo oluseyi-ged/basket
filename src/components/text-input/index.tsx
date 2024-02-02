@@ -117,7 +117,7 @@ export const TextInput: FC<Props> = ({
           {paddingHorizontal: padding},
           inputStyle,
           bordered && style.bordered,
-          // focused && {borderColor: palette.mutedGreen},
+          {borderBottomColor: '#FD8136'},
         ]}>
         {iconName1 && (
           <SvgIcon name={iconName1} size={iconSize1 || 20} onPress={onPress1} />
@@ -155,7 +155,7 @@ export const TextInput: FC<Props> = ({
         )}
         {type === 'password' && (
           <SvgIcon
-            name={'open-eye'}
+            name={'eye'}
             size={20}
             onPress={() => {
               setSecure(!secure);

@@ -7,3 +7,4 @@ export const Bike5 = require('./home/bike5.png');
 export const Ride = require('./home/ride.json');
 export const MiniBg = require('./home/miniBg.png');
 export const MapBg = require('./home/mapBg.png');
+export const Logo = require('./home/logo.png');

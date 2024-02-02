@@ -2,19 +2,25 @@ import {HDP, RF} from '@helpers';
 import {family, palette} from '@theme';
 import {Dimensions, StyleSheet} from 'react-native';
 
-const {width, height} = Dimensions.get('window');
+const {width} = Dimensions.get('window');
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     display: 'flex',
-    backgroundColor: palette.white,
+    backgroundColor: palette.black,
     position: 'relative',
   },
   header: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    padding: HDP(24),
+    padding: HDP(14),
+    gap: HDP(20),
+    backgroundColor: '#112D42',
+  },
+  searchBox: {
+    backgroundColor: '#f5f5f5',
+    borderWidth: 0,
   },
   maintext: {
     fontSize: RF(18),
@@ -22,70 +28,45 @@ const styles = StyleSheet.create({
     fontFamily: family.Bold,
     paddingLeft: HDP(24),
   },
-  swipeCont: {
-    backgroundColor: '#F1F6FB',
-    borderRadius: HDP(32),
-    width: width * 0.8,
-    alignSelf: 'center',
-    overflow: 'hidden',
-    height: height * 0.35,
-    marginRight: HDP(10),
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  heroImg: {
-    height: '80%',
-    width: '80%',
-    resizeMode: 'cover',
-  },
-  ctaGrid: {
+  heroSection: {
+    backgroundColor: '#FD8136',
     flexDirection: 'row',
-    justifyContent: 'center',
+    paddingHorizontal: HDP(14),
+    paddingTop: HDP(34),
+    paddingBottom: HDP(65),
     alignItems: 'center',
-    width,
+    position: 'relative',
   },
-  indicate: {
-    height: HDP(6),
-    width: HDP(6),
-    backgroundColor: '#000',
-    justifyContent: 'center',
-    borderRadius: HDP(4),
-  },
-  unindicate: {
-    height: HDP(6),
-    width: HDP(6),
-    backgroundColor: '#E5F0FC',
-    justifyContent: 'center',
+  aviRound: {
+    backgroundColor: '#fff',
     borderRadius: HDP(100),
+    height: HDP(80),
+    width: HDP(80),
   },
-  orderCta: {
+  optItem: {
     flexDirection: 'row',
-    backgroundColor: '#FFD337',
-    paddingVertical: HDP(27),
-    paddingRight: HDP(27),
-    paddingLeft: HDP(32),
-    alignItems: 'center',
-    gap: HDP(27),
-  },
-  orderText: {
-    fontSize: RF(14),
-    color: '#96823D',
-    fontFamily: family.Regular,
-    width: '30%',
-  },
-  lottieText: {
-    fontSize: RF(14),
-    color: '#424242',
-    fontFamily: family.Regular,
-    width: '45%',
-  },
-  lottieGrid: {
-    flexDirection: 'row',
-    paddingVertical: HDP(30),
-    paddingRight: HDP(48),
     gap: HDP(20),
     alignItems: 'center',
+    marginBottom: HDP(20),
+    alignSelf: 'center',
+  },
+  optBox: {
+    backgroundColor: '#fff',
+    alignSelf: 'center',
+    width: width * 0.9,
+    borderRadius: HDP(20),
+    paddingTop: HDP(70),
+    paddingBottom: HDP(50),
+    alignItems: 'center',
+    zIndex: 99999,
+    top: HDP(-50),
     justifyContent: 'center',
+    elevation: 999,
+  },
+  optText: {
+    fontSize: RF(14),
+    color: '#092C4C',
+    fontFamily: family.Medium,
   },
 });
 

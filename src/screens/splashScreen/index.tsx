@@ -1,3 +1,4 @@
+/* eslint-disable react-native/no-inline-styles */
 import React, {FC, useEffect} from 'react';
 import {Text, View} from 'react-native';
 import * as Animatable from 'react-native-animatable';
@@ -14,7 +15,7 @@ export const SplashScreen: FC = ({navigation}: any) => {
     <View style={style.container}>
       <Animatable.View animation="flash" direction="normal" duration={2000}>
         <Animatable.View animation="fadeIn" duration={2300}>
-          <Text>E-Bikes</Text>
+          <Text style={{color: '#000'}}>Basket</Text>
         </Animatable.View>
       </Animatable.View>
     </View>

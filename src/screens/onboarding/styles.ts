@@ -12,11 +12,11 @@ const style = StyleSheet.create({
     height,
   },
   container: {
-    position: 'absolute',
+    // position: 'absolute',
     flex: 1,
     width,
     alignSelf: 'center',
-    bottom: 30,
+    justifyContent: 'space-between',
   },
   skipView: {
     flex: 0.1,
@@ -27,15 +27,19 @@ const style = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  overlay: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: '#0E2D4180',
+  },
   swipeLabel: {
-    color: palette.dark,
+    color: palette.white,
     fontSize: RF(24),
     fontFamily: family.Bold,
     textAlign: 'center',
   },
   swipeDesc: {
-    color: '#96823D',
-    fontFamily: family.Regular,
+    color: '#ff8137',
+    fontFamily: family.Medium,
     fontSize: RF(14),
     textAlign: 'center',
   },
@@ -45,7 +49,7 @@ const style = StyleSheet.create({
   btnContain: {
     paddingHorizontal: HDP(20),
     width: '100%',
-    flex: 0.1,
+    flex: 0.13,
     justifyContent: 'space-between',
     // backgroundColor: 'green',
   },
@@ -58,7 +62,7 @@ const style = StyleSheet.create({
   },
   flowContainer: {
     width,
-    flex: 0.25,
+    flex: 0.5,
     // backgroundColor: 'red',
   },
   skipBtn: {
@@ -89,9 +93,10 @@ const style = StyleSheet.create({
     borderRadius: HDP(8),
   },
   arrowText: {
-    color: palette.white,
+    color: '#ff8137',
     fontFamily: family.Medium,
-    fontSize: RF(16),
+    fontSize: RF(14),
+    textAlign: 'center',
   },
   arrowGrid: {
     flexDirection: 'row',
@@ -150,6 +155,11 @@ const style = StyleSheet.create({
     color: '#031522',
     fontFamily: family.Bold,
     fontSize: RF(14),
+  },
+  heroImg: {
+    height: HDP(200),
+    width: HDP(200),
+    alignSelf: 'center',
   },
 });
 

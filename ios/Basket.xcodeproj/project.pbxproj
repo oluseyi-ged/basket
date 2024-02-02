@@ -11,16 +11,16 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		258124D7802E44F29B3BE67C /* Inter-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8ECBA1E6A3004FCAB571DF34 /* Inter-Light.otf */; };
+		4800984D08A944EEB6DB2543 /* Inter-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94F6BDA86082401EABC05F26 /* Inter-SemiBold.otf */; };
+		7D71B4E650FE42189AEC1F4B /* Inter-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6C38A53AA034499A13F3315 /* Inter-Regular.otf */; };
+		7F96CD8C9D8645D689113B37 /* Inter-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 210A9909339741069C302AFB /* Inter-Black.otf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		AAD03615BBE04E01AB8A809F /* Inter-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 945E93A7EF0547AA8EBC5332 /* Inter-Bold.otf */; };
 		B0C8D7A42A74BB2500B90173 /* MoolaSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C8D7A32A74BB2500B90173 /* MoolaSwift.swift */; };
 		B4219B772D75C2CD36C0453A /* libPods-Basket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EEBCF9AB8C78AC69441DB43 /* libPods-Basket.a */; };
 		CB87AB6FB2243DC82D918092 /* libPods-Basket-BasketTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB26E81DCF70DAA3C8FDA03 /* libPods-Basket-BasketTests.a */; };
-		7F96CD8C9D8645D689113B37 /* Inter-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 210A9909339741069C302AFB /* Inter-Black.otf */; };
-		AAD03615BBE04E01AB8A809F /* Inter-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 945E93A7EF0547AA8EBC5332 /* Inter-Bold.otf */; };
-		258124D7802E44F29B3BE67C /* Inter-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8ECBA1E6A3004FCAB571DF34 /* Inter-Light.otf */; };
 		E314E7DF66A44DACBF24040C /* Inter-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16B06B7B8DF34F1FB50BD17F /* Inter-Medium.otf */; };
-		7D71B4E650FE42189AEC1F4B /* Inter-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6C38A53AA034499A13F3315 /* Inter-Regular.otf */; };
-		4800984D08A944EEB6DB2543 /* Inter-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94F6BDA86082401EABC05F26 /* Inter-SemiBold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,36 +29,36 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = "Basket";
+			remoteInfo = Basket;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00079B7EADD7583F893CD264 /* Pods-Basket-BasketTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Basket-BasketTests.release.xcconfig"; path = "Target Support Files/Pods-Basket-BasketTests/Pods-Basket-BasketTests.release.xcconfig"; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* BasketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BasketTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* BasketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* BasketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BasketTests.m"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Basket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Basket.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Basket/AppDelegate.h"; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = "Basket/AppDelegate.mm"; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Basket/Images.xcassets"; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Basket/Info.plist"; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Basket/main.m"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* BasketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasketTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Basket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Basket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Basket/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Basket/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Basket/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Basket/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Basket/main.m; sourceTree = "<group>"; };
+		16B06B7B8DF34F1FB50BD17F /* Inter-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Medium.otf"; path = "../src/assets/fonts/Inter-Medium.otf"; sourceTree = "<group>"; };
+		210A9909339741069C302AFB /* Inter-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Black.otf"; path = "../src/assets/fonts/Inter-Black.otf"; sourceTree = "<group>"; };
 		5EEBCF9AB8C78AC69441DB43 /* libPods-Basket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Basket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "Basket/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Basket/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8ECBA1E6A3004FCAB571DF34 /* Inter-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Light.otf"; path = "../src/assets/fonts/Inter-Light.otf"; sourceTree = "<group>"; };
 		90B02BB1400D2873162C83C5 /* Pods-Basket-BasketTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Basket-BasketTests.debug.xcconfig"; path = "Target Support Files/Pods-Basket-BasketTests/Pods-Basket-BasketTests.debug.xcconfig"; sourceTree = "<group>"; };
+		945E93A7EF0547AA8EBC5332 /* Inter-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Bold.otf"; path = "../src/assets/fonts/Inter-Bold.otf"; sourceTree = "<group>"; };
+		94F6BDA86082401EABC05F26 /* Inter-SemiBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-SemiBold.otf"; path = "../src/assets/fonts/Inter-SemiBold.otf"; sourceTree = "<group>"; };
 		B0C8D7A22A74BB2400B90173 /* Basket-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Basket-Bridging-Header.h"; sourceTree = "<group>"; };
 		B0C8D7A32A74BB2500B90173 /* MoolaSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoolaSwift.swift; sourceTree = "<group>"; };
 		B4B4C50AB3D63A640B44A3FC /* Pods-Basket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Basket.release.xcconfig"; path = "Target Support Files/Pods-Basket/Pods-Basket.release.xcconfig"; sourceTree = "<group>"; };
+		C6C38A53AA034499A13F3315 /* Inter-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Regular.otf"; path = "../src/assets/fonts/Inter-Regular.otf"; sourceTree = "<group>"; };
 		DAB26E81DCF70DAA3C8FDA03 /* libPods-Basket-BasketTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Basket-BasketTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FF2CE40F903168A7A1FD26CE /* Pods-Basket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Basket.debug.xcconfig"; path = "Target Support Files/Pods-Basket/Pods-Basket.debug.xcconfig"; sourceTree = "<group>"; };
-		210A9909339741069C302AFB /* Inter-Black.otf */ = {isa = PBXFileReference; name = "Inter-Black.otf"; path = "../src/assets/fonts/Inter-Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		945E93A7EF0547AA8EBC5332 /* Inter-Bold.otf */ = {isa = PBXFileReference; name = "Inter-Bold.otf"; path = "../src/assets/fonts/Inter-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8ECBA1E6A3004FCAB571DF34 /* Inter-Light.otf */ = {isa = PBXFileReference; name = "Inter-Light.otf"; path = "../src/assets/fonts/Inter-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		16B06B7B8DF34F1FB50BD17F /* Inter-Medium.otf */ = {isa = PBXFileReference; name = "Inter-Medium.otf"; path = "../src/assets/fonts/Inter-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C6C38A53AA034499A13F3315 /* Inter-Regular.otf */ = {isa = PBXFileReference; name = "Inter-Regular.otf"; path = "../src/assets/fonts/Inter-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		94F6BDA86082401EABC05F26 /* Inter-SemiBold.otf */ = {isa = PBXFileReference; name = "Inter-SemiBold.otf"; path = "../src/assets/fonts/Inter-SemiBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 				00E356F21AD99517003FC87E /* BasketTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = "BasketTests";
+			path = BasketTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -108,7 +108,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = "Basket";
+			name = Basket;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -197,7 +197,7 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = "BasketTests";
+			name = BasketTests;
 			productReference = 00E356EE1AD99517003FC87E /* BasketTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -217,8 +217,8 @@
 			);
 			dependencies = (
 			);
-			name = "Basket";
-			productName = "Basket";
+			name = Basket;
+			productName = Basket;
 			productReference = 13B07F961A680F5B00A75B9A /* Basket.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -439,7 +439,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "BasketTests/Info.plist";
+				INFOPLIST_FILE = BasketTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,7 +451,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.basket.app";
+				PRODUCT_BUNDLE_IDENTIFIER = com.basket.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Basket.app/Basket";
 			};
@@ -464,7 +464,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = "BasketTests/Info.plist";
+				INFOPLIST_FILE = BasketTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -476,7 +476,7 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.basket.app";
+				PRODUCT_BUNDLE_IDENTIFIER = com.basket.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Basket.app/Basket";
 			};
@@ -493,8 +493,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DY3R49T3HK;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = "Basket/Info.plist";
-             INFOPLIST_KEY_CFBundleDisplayName = "Basket";
+				INFOPLIST_FILE = Basket/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Basket;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -506,8 +505,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.basket.app";
-				PRODUCT_NAME = "Basket";
+				PRODUCT_BUNDLE_IDENTIFIER = com.basket.app;
+				PRODUCT_NAME = Basket;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -529,8 +528,7 @@
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DY3R49T3HK;
-				INFOPLIST_FILE = "Basket/Info.plist";
-             INFOPLIST_KEY_CFBundleDisplayName = "Basket";
+				INFOPLIST_FILE = Basket/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Basket;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -542,8 +540,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.basket.app";
-				PRODUCT_NAME = "Basket";
+				PRODUCT_BUNDLE_IDENTIFIER = com.basket.app;
+				PRODUCT_NAME = Basket;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;

@@ -4,12 +4,12 @@ import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
   inputContainer: {
-    borderRadius: HDP(8),
+    // borderRadius: HDP(8),
     flexDirection: 'row',
     height: HDP(49),
     alignItems: 'center',
-    backgroundColor: '#F4F4F4',
-    borderWidth: 1,
+    backgroundColor: 'transparent',
+    borderBottomWidth: 1,
     borderColor: '#E9E9E9',
   },
   label: {

@@ -28,7 +28,7 @@ export const Button: FC<Props> = ({
   loading,
   containerStyle,
   textStyle,
-  backgroundColor = palette.black,
+  backgroundColor = '#112D42',
   iconContainerStyle,
   bordered,
   iconSize,
@@ -51,6 +51,12 @@ export const Button: FC<Props> = ({
         <View>
           <View
             style={{flexDirection: 'row', alignItems: 'center', gap: HDP(21)}}>
+            {iconName && (
+              <View style={[style.iconContainer, iconContainerStyle]}>
+                <SvgIcon name={iconName} size={iconSize || 20} />
+                <SizedBox width={HDP(12)} />
+              </View>
+            )}
             <Text
               style={[
                 style.textCommonStyle,
@@ -59,12 +65,6 @@ export const Button: FC<Props> = ({
               ]}>
               {title}
             </Text>
-            {iconName && (
-              <View style={[style.iconContainer, iconContainerStyle]}>
-                <SvgIcon name={iconName} size={iconSize || 20} />
-                <SizedBox width={HDP(12)} />
-              </View>
-            )}
           </View>
         </View>
       )}

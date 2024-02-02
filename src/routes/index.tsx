@@ -4,7 +4,9 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {Onboarding, SplashScreen} from '@screens';
 import React from 'react';
 import {StatusBar, View} from 'react-native';
+import FlashMessage from 'react-native-flash-message';
 import AppStackScreens from './AppStack';
+import AuthStackScreens from './AuthStack';
 
 const Stack = createNativeStackNavigator();
 
@@ -21,8 +23,10 @@ const RootNavigator = () => {
           <Stack.Screen name="SplashScreen" component={SplashScreen} />
           <Stack.Screen name="Onboarding" component={Onboarding} />
           <Stack.Screen name="Home" component={AppStackScreens} />
+          <Stack.Screen name="Auth" component={AuthStackScreens} />
         </Stack.Navigator>
       </NavigationContainer>
+      <FlashMessage duration={3000} />
     </View>
   );
 };
