@@ -1,0 +1,13 @@
+export {default as ArrowRight} from './arrow-right.svg';
+export {default as Avi} from './avi.svg';
+export {default as Bell} from './bell.svg';
+export {default as Bookmarks} from './bookmarks.svg';
+export {default as Box} from './box.svg';
+export {default as CaretLeft} from './caret-left.svg';
+export {default as CaretRight} from './caret-right.svg';
+export {default as Google} from './google.svg';
+export {default as Home} from './home.svg';
+export {default as Menu} from './menu.svg';
+export {default as Settings} from './settings.svg';
+export {default as Share} from './share.svg';
+export {default as Warning} from './warning.svg';
