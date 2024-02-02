@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* BikesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* BikesTests.m */; };
+		00E356F31AD99517003FC87E /* BasketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* BasketTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		B0C8D7A42A74BB2500B90173 /* MoolaSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C8D7A32A74BB2500B90173 /* MoolaSwift.swift */; };
-		B4219B772D75C2CD36C0453A /* libPods-Bikes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EEBCF9AB8C78AC69441DB43 /* libPods-Bikes.a */; };
-		CB87AB6FB2243DC82D918092 /* libPods-Bikes-BikesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB26E81DCF70DAA3C8FDA03 /* libPods-Bikes-BikesTests.a */; };
+		B4219B772D75C2CD36C0453A /* libPods-Basket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EEBCF9AB8C78AC69441DB43 /* libPods-Basket.a */; };
+		CB87AB6FB2243DC82D918092 /* libPods-Basket-BasketTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB26E81DCF70DAA3C8FDA03 /* libPods-Basket-BasketTests.a */; };
 		7F96CD8C9D8645D689113B37 /* Inter-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 210A9909339741069C302AFB /* Inter-Black.otf */; };
 		AAD03615BBE04E01AB8A809F /* Inter-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 945E93A7EF0547AA8EBC5332 /* Inter-Bold.otf */; };
 		258124D7802E44F29B3BE67C /* Inter-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8ECBA1E6A3004FCAB571DF34 /* Inter-Light.otf */; };
@@ -29,30 +29,30 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = Bikes;
+			remoteInfo = "Basket";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00079B7EADD7583F893CD264 /* Pods-Bikes-BikesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bikes-BikesTests.release.xcconfig"; path = "Target Support Files/Pods-Bikes-BikesTests/Pods-Bikes-BikesTests.release.xcconfig"; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* BikesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BikesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00079B7EADD7583F893CD264 /* Pods-Basket-BasketTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Basket-BasketTests.release.xcconfig"; path = "Target Support Files/Pods-Basket-BasketTests/Pods-Basket-BasketTests.release.xcconfig"; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* BasketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BasketTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* BikesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BikesTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Bikes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bikes.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Bikes/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Bikes/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Bikes/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Bikes/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Bikes/main.m; sourceTree = "<group>"; };
-		5EEBCF9AB8C78AC69441DB43 /* libPods-Bikes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Bikes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Bikes/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		90B02BB1400D2873162C83C5 /* Pods-Bikes-BikesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bikes-BikesTests.debug.xcconfig"; path = "Target Support Files/Pods-Bikes-BikesTests/Pods-Bikes-BikesTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B0C8D7A22A74BB2400B90173 /* Bikes-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bikes-Bridging-Header.h"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* BasketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BasketTests.m"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Basket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Basket.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Basket/AppDelegate.h"; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = "Basket/AppDelegate.mm"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Basket/Images.xcassets"; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Basket/Info.plist"; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Basket/main.m"; sourceTree = "<group>"; };
+		5EEBCF9AB8C78AC69441DB43 /* libPods-Basket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Basket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "Basket/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		90B02BB1400D2873162C83C5 /* Pods-Basket-BasketTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Basket-BasketTests.debug.xcconfig"; path = "Target Support Files/Pods-Basket-BasketTests/Pods-Basket-BasketTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0C8D7A22A74BB2400B90173 /* Basket-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Basket-Bridging-Header.h"; sourceTree = "<group>"; };
 		B0C8D7A32A74BB2500B90173 /* MoolaSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoolaSwift.swift; sourceTree = "<group>"; };
-		B4B4C50AB3D63A640B44A3FC /* Pods-Bikes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bikes.release.xcconfig"; path = "Target Support Files/Pods-Bikes/Pods-Bikes.release.xcconfig"; sourceTree = "<group>"; };
-		DAB26E81DCF70DAA3C8FDA03 /* libPods-Bikes-BikesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Bikes-BikesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4B4C50AB3D63A640B44A3FC /* Pods-Basket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Basket.release.xcconfig"; path = "Target Support Files/Pods-Basket/Pods-Basket.release.xcconfig"; sourceTree = "<group>"; };
+		DAB26E81DCF70DAA3C8FDA03 /* libPods-Basket-BasketTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Basket-BasketTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		FF2CE40F903168A7A1FD26CE /* Pods-Bikes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bikes.debug.xcconfig"; path = "Target Support Files/Pods-Bikes/Pods-Bikes.debug.xcconfig"; sourceTree = "<group>"; };
+		FF2CE40F903168A7A1FD26CE /* Pods-Basket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Basket.debug.xcconfig"; path = "Target Support Files/Pods-Basket/Pods-Basket.debug.xcconfig"; sourceTree = "<group>"; };
 		210A9909339741069C302AFB /* Inter-Black.otf */ = {isa = PBXFileReference; name = "Inter-Black.otf"; path = "../src/assets/fonts/Inter-Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		945E93A7EF0547AA8EBC5332 /* Inter-Bold.otf */ = {isa = PBXFileReference; name = "Inter-Bold.otf"; path = "../src/assets/fonts/Inter-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		8ECBA1E6A3004FCAB571DF34 /* Inter-Light.otf */ = {isa = PBXFileReference; name = "Inter-Light.otf"; path = "../src/assets/fonts/Inter-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
@@ -66,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB87AB6FB2243DC82D918092 /* libPods-Bikes-BikesTests.a in Frameworks */,
+				CB87AB6FB2243DC82D918092 /* libPods-Basket-BasketTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,20 +74,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4219B772D75C2CD36C0453A /* libPods-Bikes.a in Frameworks */,
+				B4219B772D75C2CD36C0453A /* libPods-Basket.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* BikesTests */ = {
+		00E356EF1AD99517003FC87E /* BasketTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* BikesTests.m */,
+				00E356F21AD99517003FC87E /* BasketTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = BikesTests;
+			path = "BasketTests";
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -98,7 +98,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* Bikes */ = {
+		13B07FAE1A68108700A75B9A /* Basket */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -108,15 +108,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = Bikes;
+			name = "Basket";
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5EEBCF9AB8C78AC69441DB43 /* libPods-Bikes.a */,
-				DAB26E81DCF70DAA3C8FDA03 /* libPods-Bikes-BikesTests.a */,
+				5EEBCF9AB8C78AC69441DB43 /* libPods-Basket.a */,
+				DAB26E81DCF70DAA3C8FDA03 /* libPods-Basket-BasketTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,14 +132,14 @@
 			isa = PBXGroup;
 			children = (
 				B0C8D7A32A74BB2500B90173 /* MoolaSwift.swift */,
-				13B07FAE1A68108700A75B9A /* Bikes */,
+				13B07FAE1A68108700A75B9A /* Basket */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* BikesTests */,
+				00E356EF1AD99517003FC87E /* BasketTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
 				8B1229F128BD4C4F8226F407 /* Resources */,
-				B0C8D7A22A74BB2400B90173 /* Bikes-Bridging-Header.h */,
+				B0C8D7A22A74BB2400B90173 /* Basket-Bridging-Header.h */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -149,8 +149,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Bikes.app */,
-				00E356EE1AD99517003FC87E /* BikesTests.xctest */,
+				13B07F961A680F5B00A75B9A /* Basket.app */,
+				00E356EE1AD99517003FC87E /* BasketTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -171,10 +171,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FF2CE40F903168A7A1FD26CE /* Pods-Bikes.debug.xcconfig */,
-				B4B4C50AB3D63A640B44A3FC /* Pods-Bikes.release.xcconfig */,
-				90B02BB1400D2873162C83C5 /* Pods-Bikes-BikesTests.debug.xcconfig */,
-				00079B7EADD7583F893CD264 /* Pods-Bikes-BikesTests.release.xcconfig */,
+				FF2CE40F903168A7A1FD26CE /* Pods-Basket.debug.xcconfig */,
+				B4B4C50AB3D63A640B44A3FC /* Pods-Basket.release.xcconfig */,
+				90B02BB1400D2873162C83C5 /* Pods-Basket-BasketTests.debug.xcconfig */,
+				00079B7EADD7583F893CD264 /* Pods-Basket-BasketTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -182,9 +182,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* BikesTests */ = {
+		00E356ED1AD99517003FC87E /* BasketTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "BikesTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "BasketTests" */;
 			buildPhases = (
 				4DC880FBE42DC56927579C81 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -197,13 +197,13 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = BikesTests;
-			productReference = 00E356EE1AD99517003FC87E /* BikesTests.xctest */;
+			name = "BasketTests";
+			productReference = 00E356EE1AD99517003FC87E /* BasketTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* Bikes */ = {
+		13B07F861A680F5B00A75B9A /* Basket */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Bikes" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Basket" */;
 			buildPhases = (
 				DF771922120030B9FFD685EB /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -217,9 +217,9 @@
 			);
 			dependencies = (
 			);
-			name = Bikes;
-			productName = Bikes;
-			productReference = 13B07F961A680F5B00A75B9A /* Bikes.app */;
+			name = "Basket";
+			productName = "Basket";
+			productReference = 13B07F961A680F5B00A75B9A /* Basket.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -239,7 +239,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Bikes" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Basket" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -252,8 +252,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* Bikes */,
-				00E356ED1AD99517003FC87E /* BikesTests */,
+				13B07F861A680F5B00A75B9A /* Basket */,
+				00E356ED1AD99517003FC87E /* BasketTests */,
 			);
 		};
 /* End PBXProject section */
@@ -306,15 +306,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Bikes/Pods-Bikes-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Basket/Pods-Basket-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Bikes/Pods-Bikes-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Basket/Pods-Basket-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bikes/Pods-Bikes-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Basket/Pods-Basket-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4DC880FBE42DC56927579C81 /* [CP] Check Pods Manifest.lock */ = {
@@ -332,7 +332,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Bikes-BikesTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Basket-BasketTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -345,15 +345,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Bikes-BikesTests/Pods-Bikes-BikesTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Basket-BasketTests/Pods-Basket-BasketTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Bikes-BikesTests/Pods-Bikes-BikesTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Basket-BasketTests/Pods-Basket-BasketTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bikes-BikesTests/Pods-Bikes-BikesTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Basket-BasketTests/Pods-Basket-BasketTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DF771922120030B9FFD685EB /* [CP] Check Pods Manifest.lock */ = {
@@ -371,7 +371,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Bikes-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Basket-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -404,7 +404,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* BikesTests.m in Sources */,
+				00E356F31AD99517003FC87E /* BasketTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,7 +423,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* Bikes */;
+			target = 13B07F861A680F5B00A75B9A /* Basket */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -431,7 +431,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90B02BB1400D2873162C83C5 /* Pods-Bikes-BikesTests.debug.xcconfig */;
+			baseConfigurationReference = 90B02BB1400D2873162C83C5 /* Pods-Basket-BasketTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -439,7 +439,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = BikesTests/Info.plist;
+				INFOPLIST_FILE = "BasketTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,20 +451,20 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tonic.test;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.basket.app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bikes.app/Bikes";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Basket.app/Basket";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00079B7EADD7583F893CD264 /* Pods-Bikes-BikesTests.release.xcconfig */;
+			baseConfigurationReference = 00079B7EADD7583F893CD264 /* Pods-Basket-BasketTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = BikesTests/Info.plist;
+				INFOPLIST_FILE = "BasketTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -476,15 +476,15 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tonic.test;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.basket.app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bikes.app/Bikes";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Basket.app/Basket";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF2CE40F903168A7A1FD26CE /* Pods-Bikes.debug.xcconfig */;
+			baseConfigurationReference = FF2CE40F903168A7A1FD26CE /* Pods-Basket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -493,8 +493,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DY3R49T3HK;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Bikes/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Bikes;
+				INFOPLIST_FILE = "Basket/Info.plist";
+             INFOPLIST_KEY_CFBundleDisplayName = "Basket";
+				INFOPLIST_KEY_CFBundleDisplayName = Basket;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -505,12 +506,12 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tonic.test;
-				PRODUCT_NAME = Bikes;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.basket.app";
+				PRODUCT_NAME = "Basket";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "Bikes-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Basket-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -520,7 +521,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4B4C50AB3D63A640B44A3FC /* Pods-Bikes.release.xcconfig */;
+			baseConfigurationReference = B4B4C50AB3D63A640B44A3FC /* Pods-Basket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -528,8 +529,9 @@
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DY3R49T3HK;
-				INFOPLIST_FILE = Bikes/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Bikes;
+				INFOPLIST_FILE = "Basket/Info.plist";
+             INFOPLIST_KEY_CFBundleDisplayName = "Basket";
+				INFOPLIST_KEY_CFBundleDisplayName = Basket;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -540,12 +542,12 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tonic.test;
-				PRODUCT_NAME = Bikes;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.basket.app";
+				PRODUCT_NAME = "Basket";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "Bikes-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Basket-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -692,7 +694,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "BikesTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "BasketTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -701,7 +703,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Bikes" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Basket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -710,7 +712,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Bikes" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Basket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

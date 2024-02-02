@@ -21,7 +21,7 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'Bikes' do
+target 'Basket' do
   
   config = use_native_modules!
 
@@ -47,7 +47,7 @@ target 'Bikes' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'BikesTests' do
+  target 'BasketTests' do
     inherit! :complete
     # Pods for testing
 
